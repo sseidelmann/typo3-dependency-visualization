@@ -1,0 +1,14 @@
+{
+  "name": "sseidelmann/typo3-dependency-visualization",
+  "type": "library",
+  "description": "A library for graphical display of extension dependencies",
+  "keywords": ["graph", "typo3", "extension"],
+  "homepage": "https://github.com/sseidelmann/typo3-dependency-visualization",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {"Sseidelmann\\Typo3DependencyVisualization\\": "src/"}
+  },
+  "require": {
+    "graphp/graphviz": "~0.2.0"
+  }
+}
