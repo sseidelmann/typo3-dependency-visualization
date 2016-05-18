@@ -13,3 +13,4 @@ if (PHP_SAPI !== 'cli') {
 (@include_once __DIR__ . '/../vendor/autoload.php') || @include_once __DIR__ . '/../../../autoload.php';
 
 $graph = new \Sseidelmann\Typo3DependencyVisualization\Graph();
+$graph->generate();

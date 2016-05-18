@@ -9,7 +9,8 @@
     "psr-4": {"Sseidelmann\\Typo3DependencyVisualization\\": "src/"}
   },
   "require": {
-    "graphp/graphviz": "~0.2.0"
+    "graphp/graphviz": "~0.2.0",
+    "ulrichsg/getopt-php": "2.3.*"
   },
   "bin": [
     "bin/graph"
