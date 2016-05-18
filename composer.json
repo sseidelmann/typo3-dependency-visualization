@@ -10,5 +10,6 @@
   },
   "require": {
     "graphp/graphviz": "~0.2.0"
-  }
+  },
+  "bin": ["bin/graph"]
 }
